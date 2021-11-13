@@ -23,12 +23,14 @@
         mx-1
         px-4
         flex flex-col
-        h-80
+        h-96
         my-1
       "
       :style="{ 'background-color': feature.bgColor }"
     >
-      <img :src="feature.image" alt="" />
+      <div>
+        <img :src="feature.image" alt="" class="pb-2" />
+      </div>
       <h1 class="font-bold text-2xl">{{ feature.headerName }}</h1>
       <p class="text-sm">{{ feature.featureText }}</p>
       <h3
@@ -49,24 +51,24 @@ export default {
       features: [
         {
           image: require("@/assets/dataanalysis.png"),
-          headerName: "Brand Research",
+          headerName: "Cloud Architecture Design",
           featureText:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "I can design a scalable cloud architecture tailored to your organizational needs.",
           bgColor: "#1E1E1E",
         },
         {
           image: require("@/assets/webdesign.png"),
-          headerName: "Web Development",
+          headerName: "Frontend Web Development",
           featureText:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "Using VueJS as my preferred frontend framework, I can bring your designs to life.",
           bgColor: "#CD1C29",
           textColor: "white",
         },
         {
           image: require("@/assets/design.png"),
-          headerName: "Brand Design",
+          headerName: "Conduct Brand Research",
           featureText:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "I can conduct reasearch into the best way to present your brand's message to the world.",
           bgColor: "#1E1E1E",
         },
       ],
@@ -75,8 +77,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 img {
-  width: 40%;
+  width: 90px;
+  height: 90px;
 }
 </style>

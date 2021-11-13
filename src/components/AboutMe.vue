@@ -9,13 +9,11 @@
       <!-- col 2 -->
       <div class="max-w-2xl text-justify">
         <p class="mx-5">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-          distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-          cumque nihil impedit quo minus id quod maxime
+          I am an experienced VueJS Developer and occasionally dabble in NodeJS
+          on the backend. Extremely proficient in replicating sesigns with
+          guaranteed UI fidelity. I also have experience in the Cloud industry
+          as a certified Azure Engineer coupled Bachelors of Science in Computer
+          Science and a Masters in CyberSecurity andPenetration Testing.
         </p>
 
         <div class="flex flex-row justify-around my-6">
@@ -41,8 +39,8 @@
               font-medium
               hover:bg-gray-100
             "
-          >
-            Download CV
+          ><a href="https://drive.google.com/file/d/1JPkmvVasNBjVK646PsQ32jTonDVYk4xX/view?usp=sharing">Download CV</a>
+            
           </button>
         </div>
       </div>
