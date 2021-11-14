@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-pth bg-brand-red-light-1 py-2">
+  <div class="w-full min-h-pth py-2 text-red-500">
     <div class="flex items-center justify-between py-6 px-6 mx-auto max-w-7xl">
       <div class="text-base font-normal text-brand-gray-dark-1 font-mulish">
         Logo
@@ -16,20 +16,10 @@
           font-mulish
         "
       >
-        <a
-          href=""
-          class="hover:text-brand-red-dark"
-          >HOME</a
-        >
-        <a
-          href=""
-          class="hover:text-brand-red-dark"
-          >PROJECTS</a
-        >
-        <a href="" class="hover:text-brand-red-dark"
-          >ABOUT</a
-        >
-        <a href="mailto:boyeadeotan@gmail.com">
+        <a href="" class="hover:text-brand-red-dark">HOME</a>
+        <a href="" class="hover:text-brand-red-dark">PROJECTS</a>
+        <a href="" class="hover:text-brand-red-dark text-red-500">ABOUT</a>
+        <a href="mailto:boyeadeotan@gmail.com" class="rounded">
           <button
             class="
               bg-brand-red-dark
@@ -39,6 +29,7 @@
               px-6
               py-2
               text-sm
+              rounded
             "
           >
             CONTACT ME
@@ -70,19 +61,15 @@
         md:hidden
       "
     >
-      <a
-        href="https://zuriprogresstracker.netlify.app/"
-        class="block py-2 text-base"
-        >HOME</a
-      >
+      <a href="" class="block py-2 text-base">HOME</a>
       <a
         href="https://training.zuri.team/curriculum"
         class="block py-2 text-base"
         >PROJECTS</a
       >
-      <a href="https://hng.tech/" class="block py-2 text-base">ABOUT</a>
+      <a href="" class="block py-2 text-base">ABOUT</a>
 
-      <a href="https://training.zuri.team/enrollment">
+      <a href="mailto:boyeadeotan.com" class="rounded">
         <button
           class="
             bg-brand-red-dark
@@ -92,6 +79,7 @@
             py-4
             text-base
             w-full
+            rounded
           "
         >
           CONTACT ME
@@ -99,8 +87,7 @@
       </a>
     </div>
     <div class="header-body flex justify-center items-center">
-      <div class="border-0">
-      </div>
+      <div class="border-0"></div>
     </div>
   </div>
 </template>
