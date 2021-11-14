@@ -3,7 +3,7 @@
     <div class="container mx-auto mt-32 flex flex-col sm:flex-row">
       <!-- col 1 -->
       <div class="flex my-auto mx-auto">
-        <h1 class="text-5xl font-medium border-b-2">About Me</h1>
+        <h1 class="text-5xl font-medium">About Me</h1>
       </div>
 
       <!-- col 2 -->

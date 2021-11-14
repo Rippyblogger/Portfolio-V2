@@ -2,9 +2,15 @@
   <div class="flex flex-row my-40 mx-auto items-center justify-around">
     <!-- col 1 -->
     <div class="space-y-4 flex flex-col justify-center mx-auto px-8">
-      <a href="" class="mx-auto"><img class="mx-auto" src="@/assets/github.png" alt="" /></a>
-      <a href="" class="mx-auto"><img class="mx-auto" src="@/assets/linkedin.png" alt="" /></a>
-      <a href="" class="mx-auto"><img class="mx-auto" src="@/assets/email.png" alt="" /></a>
+      <a href="https://github.com/Rippyblogger" class="mx-auto"
+        ><img class="mx-auto" src="@/assets/github.png" alt=""
+      /></a>
+      <a href="https://www.linkedin.com/in/adeboye-adeotan/" class="mx-auto"
+        ><img class="mx-auto" src="@/assets/linkedin.png" alt=""
+      /></a>
+      <a href="mailto:boyeadeotan@gmail.com" class="mx-auto"
+        ><img class="mx-auto" src="@/assets/email.png" alt=""
+      /></a>
     </div>
 
     <!-- col 2 -->
@@ -61,6 +67,9 @@ export default {
   name: "Header",
   components: {
     VTypical,
+  },
+  methods: {
+    menu() {},
   },
 };
 </script>
