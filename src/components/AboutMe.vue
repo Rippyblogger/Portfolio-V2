@@ -3,12 +3,12 @@
     <div class="container mx-auto mt-32 flex flex-col sm:flex-row">
       <!-- col 1 -->
       <div class="flex my-auto mx-auto">
-        <h1 class="text-5xl font-medium">About Me</h1>
+        <h1 class="text-5xl font-medium mb-10">About Me</h1>
       </div>
 
       <!-- col 2 -->
       <div class="max-w-2xl text-justify">
-        <p class="mx-5">
+        <p class="mx-5 text-white">
           I am an experienced VueJS Developer and occasionally dabble in NodeJS
           on the backend. Extremely proficient in replicating sesigns with
           guaranteed UI fidelity. I also have experience in the Cloud industry
@@ -39,8 +39,11 @@
               font-medium
               hover:bg-gray-100
             "
-          ><a href="https://drive.google.com/file/d/1JPkmvVasNBjVK646PsQ32jTonDVYk4xX/view?usp=sharing">Download CV</a>
-            
+          >
+            <a
+              href="https://drive.google.com/file/d/1JPkmvVasNBjVK646PsQ32jTonDVYk4xX/view?usp=sharing"
+              >Download CV</a
+            >
           </button>
         </div>
       </div>
