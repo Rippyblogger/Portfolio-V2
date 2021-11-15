@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col mt-16" :style="{ 'background-color': '#1E1E1E' }">
-    <h1 class="text-3xl font-medium
-    mt-5">WEB PROJECTS</h1>
+    <h1 class="text-3xl font-medium mt-5">WEB PROJECTS</h1>
+    <hr class="text-red-500">
     <div
       v-for="work in works"
       :key="work.header"
@@ -113,4 +113,11 @@ export default {
 .projImg {
   width: 50%;
 }
+
+hr{
+  margin: 0 41rem;
+  color: black;
+  border: 2px solid #CD1C29;
+}
+
 </style>

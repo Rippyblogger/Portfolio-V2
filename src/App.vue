@@ -1,11 +1,16 @@
 <template>
-  
   <div id="nav" class="bg-black">
+    <metainfo>
+      <template v-slot:title="{ content }">{{
+        content ? `${content} | SITE_NAME` : `SITE_NAME`
+      }}</template>
+    </metainfo>
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
   </div>
   <router-view class="" />
 </template>
+
 
 <style>
 #app {
