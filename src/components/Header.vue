@@ -34,7 +34,7 @@
 
       <div>
         <p class="text-white max-w-md text-justify font-medium text-sm py-2">
-          I am an experienced VueJS Developer and occasionally dabble in NodeJS
+          I am an experienced VueJS Developer who occasionally dabbles in NodeJS
           on the backend.
         </p>
       </div>

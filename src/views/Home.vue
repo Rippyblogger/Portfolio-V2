@@ -1,11 +1,11 @@
 <template>
   <div class="bg-black text-red-600 px-2" style="">
-    <Navbar class=""/>
+    <Navbar class="" />
     <div>
       <Header />
     </div>
     <div>
-      <LowerHeader class=""/>
+      <LowerHeader class="" />
     </div>
     <div>
       <AboutMe />
@@ -13,7 +13,7 @@
     <div>
       <Projects />
     </div>
-      <Footer />
+    <Footer />
   </div>
 </template>
 
@@ -35,6 +35,9 @@ export default {
     AboutMe,
     Projects,
     Footer,
+  },
+  mounted() {
+    document.title = "Boye Adeotan - Home";
   },
 };
 </script>
