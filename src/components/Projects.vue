@@ -69,7 +69,7 @@
           </button></a
         >
         <!-- button two -->
-        <a :href="work.linkUrl">
+        <a :href="work.codeUrl">
           <button
             class="
               bg-red-600
@@ -97,6 +97,19 @@ export default {
   data() {
     return {
       works: [
+        {
+          image: require("@/assets/booreyko.jpeg"),
+          header: "Booreyko",
+          alt: "Boorekyo screenshot capture",
+          description:
+            "A landing page for an SEO company built with Vue3, Vuex and Tailwind with working Portfolio and Services. Pulls all data from an api.",
+          imageOne: require("@/assets/vuejs.png"),
+          imageOneAlt: "VueJS logo",
+          imageTwo: require("@/assets/tailwind.svg"),
+          imageTwoAlt: "Tailwind logo",
+          linkUrl: "https://nlyctest.netlify.app/",
+          codeUrl: "https://github.com/Rippyblogger/Nylctest",
+        },
         {
           image: require("@/assets/Deliver.jpeg"),
           header: "Email Marketing Page",
