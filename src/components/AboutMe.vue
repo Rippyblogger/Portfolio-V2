@@ -9,10 +9,10 @@
       <!-- col 2 -->
       <div class="max-w-2xl text-justify">
         <p class="mx-5 text-white">
-          I am an experienced VueJS Developer and occasionally dabble in NodeJS
-          on the backend. Extremely proficient in replicating sesigns with
+          I am an experienced VueJS Developer and i occasionally dabble in NodeJS
+          on the backend. I am proficient in replicating designs with
           guaranteed UI fidelity. I also have experience in the Cloud industry
-          as a certified Azure Engineer coupled Bachelors of Science in Computer
+          as a certified Azure Engineer coupled with a Bachelors of Science in Computer
           Science and a Masters in CyberSecurity andPenetration Testing.
         </p>
 
